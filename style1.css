@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+   background-color:hsl(227, 43%, 19%);
+    
+
+}
+
+p{ 
+    color:white;
+    font-weight: 10px;
+    font-size: 25px;
+    
+}
+
+.tayotegyi{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 250px;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translateX(-50%);
+    border-radius: 3% ;
+    /* background-color:dodgerblue; */
+    padding: 15px;
+    box-shadow: 10px 4px 10px 10px ;
+
+}
+
+.image2{
+    width: 250px;
+    height: 250px;
+    border-radius:3% ;
+}    
+
+.tayote{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.ta{
+    display: flex;
+}
+
+.ta div{
+    padding: 0 0 0 6px;
+    font-weight: bold;
+    color:cyan
+}
+
+.yote div{
+    padding: 0 0 0 6px;
+    color:lightgrey;
+}
+
+
+.yote{
+    display: flex;
+    size: 5px;
+}
+
+
+.naywin{
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.naywin img{
+    width: 30px;
+    height: 30px;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 100%;
+}
+
+.naywin div{
+    padding: 8px;
+    color:lightslategray;
+    
+}
+
+b{
+    color:ghostwhite;
+    font-size: 15px;
+    
+}
+
+.nay{
+    color: gray;
+}
+
+.attribution{
+    font-size: 30px;
+    color: lightyellow;
+}
